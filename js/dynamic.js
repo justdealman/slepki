@@ -76,37 +76,37 @@ function newsItem() {
 }
 $(document).ready(function() {
 	nav();
-	if ( $('.stock-l').length > 0 ) {
+	if ( $('.stock-l div').length > 0 ) {
 		stockList();
 	}
-	if ( $('.stock-s').length > 0 ) {
+	if ( $('.stock-s div').length > 0 ) {
 		stockItem();
 	}
 	if ( $('.gallery-l').length > 0 ) {
 		galleryList();
 	}
-	if ( $('.news-l').length > 0 ) {
+	if ( $('.news-l div').length > 0 ) {
 		newsList();
 	}
-	if ( $('.news-s').length > 0 ) {
+	if ( $('.news-s div').length > 0 ) {
 		newsItem();
 	}
 });
 $(window).resize(function() {
 	nav();
-	if ( $('.stock-l').length > 0 ) {
+	if ( $('.stock-l div').length > 0 ) {
 		stockList();
 	}
-	if ( $('.stock-s').length > 0 ) {
+	if ( $('.stock-s div').length > 0 ) {
 		stockItem();
 	}
 	if ( $('.gallery-l').length > 0 ) {
 		galleryList();
 	}
-	if ( $('.news-l').length > 0 ) {
+	if ( $('.news-l div').length > 0 ) {
 		newsList();
 	}
-	if ( $('.news-s').length > 0 ) {
+	if ( $('.news-s div').length > 0 ) {
 		newsItem();
 	}
 });
